@@ -22,7 +22,7 @@ A comprehensive Snakemake workflow for analyzing Oxford Nanopore sequencing data
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/nano_analysis.git
+git clone https://github.com/ClaudeKwe/nano_analysis.git
 cd nano_analysis
 
 # Create and activate the main environment
