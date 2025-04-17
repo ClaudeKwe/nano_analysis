@@ -1,0 +1,9 @@
+# File: nano_analysis/envs/mafft.yaml
+name: mafft
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - mafft=7.508

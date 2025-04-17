@@ -1,0 +1,9 @@
+# File: nano_analysis/envs/bedtools.yaml
+name: bedtools
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - bedtools=2.30.0

@@ -1,0 +1,10 @@
+# File: nano_analysis/envs/nanofilt.yaml
+name: nanofilt
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - nanofilt=2.8.0
+  - pip

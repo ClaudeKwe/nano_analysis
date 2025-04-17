@@ -1,0 +1,18 @@
+# File: nano_analysis/config_template.yaml
+
+# Project information
+project_name: "default"  # Change this for each project
+
+# Input/Output paths
+input_dir: "data"                           # Directory containing barcode folders with FASTQ files
+reference_genome: "reference/reference.fasta"  # Path to reference genome
+reference_name: "reference"                   # Name to use for reference in alignments
+results_dir: "results"                      # Base directory for results
+
+# Processing parameters
+threads: 16                   # Number of threads to use for parallel processes
+min_read_quality: 8           # Minimum read quality for NanoFilt
+min_read_length: 500          # Minimum read length for NanoFilt
+headcrop: 50                  # Number of bases to trim from start of reads
+variant_depth: 30             # Minimum depth for variant filtering
+variant_quality: 60           # Minimum quality score for variant filtering

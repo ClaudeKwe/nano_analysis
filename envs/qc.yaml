@@ -1,0 +1,10 @@
+# File: nano_analysis/envs/qc.yaml
+name: qc
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - fastqc=0.11.9
+  - multiqc=1.13

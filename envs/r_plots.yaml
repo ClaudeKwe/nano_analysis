@@ -1,0 +1,12 @@
+# File: nano_analysis/envs/r_plots.yaml
+name: r_plots
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - r-base=4.2
+  - r-tidyverse=1.3.2
+  - r-ggplot2=3.4.0
+  - r-dplyr=1.0.10

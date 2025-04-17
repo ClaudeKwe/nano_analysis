@@ -1,0 +1,10 @@
+# File: nano_analysis/envs/consensus.yaml
+name: consensus
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - bcftools=1.16
+  - samtools=1.16.1
