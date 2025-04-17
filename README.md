@@ -163,7 +163,7 @@ Results are organized into the following directories:
 If you use this pipeline in your research, please cite:
 
 ```
-[Your Name]. (2025). NanoAnalysis: A Snakemake Workflow for Oxford Nanopore Sequencing Data Analysis. GitHub. https://github.com/yourusername/nano_analysis
+Claude Kwe Yinda. (2025). NanoAnalysis: A Snakemake Workflow for Oxford Nanopore Sequencing Data Analysis. GitHub. https://github.com/yourusername/nano_analysis
 ```
 
 ## License
