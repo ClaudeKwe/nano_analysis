@@ -197,7 +197,7 @@ rule mafft_alignment:
         threads=config.get("threads", 8)
     conda:
         "envs/mafft.yaml"
-    threads: lambda wildcards, params: params.threads
+    threads: lambda wildcards,resources, input, attempt, params: params.threads
     shell:
         "mafft --thread {threads} --auto {input} > {output}"
 
